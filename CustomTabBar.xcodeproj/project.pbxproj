@@ -15,6 +15,8 @@
 		DA4E99D8238D57680009FBD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4E99D6238D57680009FBD7 /* LaunchScreen.storyboard */; };
 		DA4E99E3238D57680009FBD7 /* CustomTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E99E2238D57680009FBD7 /* CustomTabBarTests.swift */; };
 		DA4E99EE238D57690009FBD7 /* CustomTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E99ED238D57680009FBD7 /* CustomTabBarUITests.swift */; };
+		DA4E99FC238D58760009FBD7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA4E99FB238D58760009FBD7 /* README.md */; };
+		DA4E99FE238D58930009FBD7 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E99FD238D58930009FBD7 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DA4E99E9238D57680009FBD7 /* CustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4E99ED238D57680009FBD7 /* CustomTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarUITests.swift; sourceTree = "<group>"; };
 		DA4E99EF238D57690009FBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4E99FB238D58760009FBD7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA4E99FD238D58930009FBD7 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				DA4E99E1238D57680009FBD7 /* CustomTabBarTests */,
 				DA4E99EC238D57680009FBD7 /* CustomTabBarUITests */,
 				DA4E99C9238D57660009FBD7 /* Products */,
+				DA4E99FB238D58760009FBD7 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +107,7 @@
 				DA4E99CB238D57660009FBD7 /* AppDelegate.swift */,
 				DA4E99CD238D57660009FBD7 /* SceneDelegate.swift */,
 				DA4E99CF238D57660009FBD7 /* ContentView.swift */,
+				DA4E99FD238D58930009FBD7 /* TabView.swift */,
 				DA4E99D1238D57680009FBD7 /* Assets.xcassets */,
 				DA4E99D6238D57680009FBD7 /* LaunchScreen.storyboard */,
 				DA4E99D9238D57680009FBD7 /* Info.plist */,
@@ -242,6 +248,7 @@
 			files = (
 				DA4E99D8238D57680009FBD7 /* LaunchScreen.storyboard in Resources */,
 				DA4E99D5238D57680009FBD7 /* Preview Assets.xcassets in Resources */,
+				DA4E99FC238D58760009FBD7 /* README.md in Resources */,
 				DA4E99D2238D57680009FBD7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			files = (
 				DA4E99CC238D57660009FBD7 /* AppDelegate.swift in Sources */,
 				DA4E99CE238D57660009FBD7 /* SceneDelegate.swift in Sources */,
+				DA4E99FE238D58930009FBD7 /* TabView.swift in Sources */,
 				DA4E99D0238D57660009FBD7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

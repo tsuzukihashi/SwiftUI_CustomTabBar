@@ -439,6 +439,7 @@
 				DEVELOPMENT_TEAM = A93B2TPWBT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CustomTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +460,7 @@
 				DEVELOPMENT_TEAM = A93B2TPWBT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CustomTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

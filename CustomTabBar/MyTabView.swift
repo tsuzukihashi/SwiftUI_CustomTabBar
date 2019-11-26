@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TabView: View {
+struct MyTabView: View {
     @Binding var currentPage: Int
     var width = UIScreen.main.bounds.width
     var body: some View {

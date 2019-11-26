@@ -20,7 +20,7 @@ struct ContentView: View {
                 .offset(x : currentPage == 3 ? 0 : 100)
                 .animation(Animation.spring())
             
-            TabView(currentPage: $currentPage)
+            MyTabView(currentPage: $currentPage)
         }
     }
 }
